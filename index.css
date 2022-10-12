@@ -1,0 +1,91 @@
+
+.header-container{
+ position:relative;
+ display: flex;
+ background-color: #004d00;
+ margin: 10px; 
+}
+
+.dropdown .fa{
+    font-size: 26px; 
+     cursor: pointer;
+      margin-top: 5px;
+      margin-left: 15px;
+      color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 100%
+}
+
+.header-title{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.shopping-cart .fa{
+    font-size: 26px; 
+    cursor: pointer;
+     margin-top: 20px;
+     margin-left: -30px;
+     color: red;
+     right: 3;
+     position: absolute;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/* carose;*/
+.slider-holder
+{
+    max-width: 100%;
+    margin: 10px;
+    height: 400px;
+    background: url('./image/img1.jpg');
+    margin-top: 0px;
+}
+
+.btn-up {
+    margin-left: 70%;
+    margin-top: 20%;
+}
+.summary{
+   
+    text-align: center;
+    margin-top: 2%;
+}
+
+.summary-paragraph{
+   margin: auto;
+   font-size: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.btn-down{
+    margin-top: 5px;
+}
+
+.foot-base{
+    background-color: black;
+    margin: 10px;
+}
+  
