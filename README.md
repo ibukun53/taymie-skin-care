@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](/)
+[Live Demo Link](/https://taymies-organic.netlify.app/index.html)
 
 ### Development (Running locally)
 
