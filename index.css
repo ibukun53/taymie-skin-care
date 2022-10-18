@@ -52,7 +52,7 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-/* carose;*/
+
 .slider-holder
 {
     max-width: 100%;
@@ -90,8 +90,8 @@ font-size: 250%;
 }
 
 .about-home-container{
-    display: flex;
     margin: 10px;
+     display:flex;
 }
 
 .about-section{ 
@@ -143,3 +143,220 @@ font-size: 250%;
     padding: 10px;
 }
   
+/* About*/
+.about-container{
+    margin: 10px;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 40px;
+}
+.about-info{
+    font-size: 20px;
+    margin: 10px;
+   text-align: center;
+}
+.about-sub{
+    margin: 10px;
+    font-size: 25px; 
+}
+
+.about-info-sub{
+    font-size: 20px;
+    margin: 10px;
+   text-align: left;
+}
+
+.about-quote{
+    font-size: 18px;
+    margin: 10px;
+   text-align: left;
+}
+.about-img{
+    width: 100%;
+    height: 200px
+}
+/* contact*/
+.contact-container{
+    margin: 10px;
+}
+.contact-title{
+    text-align: center;
+    color:#3e8e41;
+}
+.contact-subhead{
+    margin: 10px; 
+}
+.contact-info{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.contact-form-container{
+    border: #3e8e41 solid 2px;
+    margin-top: 5%;
+    margin: auto;
+    width:60%;
+}
+
+.contact-form-head{
+    text-align: center;
+    font-size: 18px;
+}
+.contact-form-subhead{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: -0.3%;
+}
+.contact-email{
+    margin-top: 0;
+    margin-left: 18%;
+    width:60%;
+}
+.contact-select-container{
+    width:60%;
+    margin-left: 18%;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-form-title{
+    font-size: 15px; 
+}
+
+.contact-form-option{
+    width:80%;
+    margin-left: 10%;
+    text-align: left;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+/*gallery*/
+
+.gallery-header{
+    margin: 10px;
+}
+.gallery-img{
+    width: 97%;
+    height: 120px;
+      z-index: -2;
+    position: absolute;
+}
+
+.gallery-title{
+   font-size: 45px;
+   margin-top: 1%;
+   width: 0;
+}
+.gallery-container-section{ 
+    margin:10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.gallery-skincare {
+    border: #3e8e41 solid 1px;  
+    margin:20px;
+}
+
+
+.gallery-section-skincare{
+    width: 100%;
+    height: 400px;
+}
+
+.gallery-skincare-info{
+    background-color: #3e8e41;
+    margin-top: -25px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.gallery-skincare-title{
+    text-align: center;
+}
+
+.gallery-oil{
+    border: #3e8e41 solid 2px;  
+    margin:20px;
+    display: flex;
+}
+
+.gallery-section-oil{
+    width: 85%;
+}
+.gallery-oil-info{
+    background-color: #3e8e41;
+    padding-bottom: 20px;
+     width: 17%;  
+}
+
+.gallery-oil-title{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.gallery-makeup{
+    border: #3e8e41 solid 2px;  
+    margin:20px;
+}
+.gallery-section-makeup{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -6px;;
+}
+
+.gallery-makeup-info{
+    background-color: #3e8e41;
+    margin-top: -25px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.gallery-scrumb{
+        border: #3e8e41 solid 2px;  
+        margin:20px;
+        display: flex;
+    }
+.gallery-section-scrumb{
+    width: 70%;
+}
+
+.gallery-scrumb-info{
+    background-color: #3e8e41;
+    padding-bottom: 20px;
+    width: 40%;  
+}
+
+.gallery-scrumb-title{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.gallery-soap{
+    border: #3e8e41 solid 2px;  
+    margin:20px;
+}
+.gallery-section-soap{
+    width: 100%;
+    height: 300px; 
+}
+.gallery-soap-info{
+    background-color: #3e8e41;
+    margin-top: -25px;
+    text-align: center;
+    padding-bottom: 2px; 
+}
+.gallery-soap-title{
+   text-align: center;
+}
+
+@media screen and (max-width: 600px)  {
+    .about-home-container{
+    display: block;
+    margin: 10px;
+    }
+    .gallery-container-section{
+       margin:10px;
+       display: block;
+   }
+}
