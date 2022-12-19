@@ -1,8 +1,10 @@
-# Library.project
+# Personal Portfolio
 
->
+> A personal portfolio is an online representation of work have created, as well as my skills and experiences.
 
-![screenshot]()
+![screenshot](./image_Screenshot.png)
+
+A portfolio website is certain to make me available and searchable for new clients. It lets my potential employers find you the moment.It presents evidence of my relevant skills and abilities.
 
 ## Built With
 
@@ -12,21 +14,21 @@
 
 ## Live Demo
 
-[Live Demo Link](/https://taymies-organic.netlify.app/index.html)
+https://deploy-preview-9--uni-uni.netlify.app/
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/ibukun53/Library-project.git
+git clone https://github.com/ibukun53/personal-portfolio
 
 ```
 
 - Install Dependencies
 
 ```bash
-npm run install
+npm install
 ```
 
 To run StyleLint by itself, you may run the lint task:
@@ -68,5 +70,20 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@ibukun53](https://github.com/ibukun53/)
-- Linkedin: [@olusanya](https://www.linkedin.com/in/ibukun53/)
+- Github: [@author](https://github.com/ibukun53/)
+- Linkedin: [@author](https://www.linkedin.com/in/ibukun53/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+[MIT licensed](./LICENSE).
+ 
