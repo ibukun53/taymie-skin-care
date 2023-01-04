@@ -1,10 +1,8 @@
-# Personal Portfolio
+# Taymies-Organic
 
-> A personal portfolio is an online representation of work have created, as well as my skills and experiences.
+> A t
 
-![screenshot](./image_Screenshot.png)
-
-A portfolio website is certain to make me available and searchable for new clients. It lets my potential employers find you the moment.It presents evidence of my relevant skills and abilities.
+![screenshot](./image_Screensot.png)
 
 ## Built With
 
@@ -14,14 +12,14 @@ A portfolio website is certain to make me available and searchable for new clien
 
 ## Live Demo
 
-https://deploy-preview-9--uni-uni.netlify.app/
+https://taymies-organic.netlify.app/index.html
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/ibukun53/personal-portfolio
+git clone https://github.com/ibukun53/taymies-organic
 
 ```
 
@@ -86,4 +84,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 [MIT licensed](./LICENSE).
- 

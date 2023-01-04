@@ -371,6 +371,25 @@
    text-align: center;
 }
 
+
+a:link {
+  color: pink;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 @media screen and (max-width: 600px)  {
     .home-detail{
         left: 20%;
